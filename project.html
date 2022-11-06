@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./project.css" />
+    <script src="./project.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left">
+        <div class="top">
+          Task Creator
+        </div>
+        <div class="bottom">
+          <div class="box">
+            <label>Task Name</label>
+            <input type="text" id="task" />
+          </div>
+          <div class="box">
+            <label>Task Description</label>
+            <input type="text" id="description" />
+          </div>
+          <div class="box">
+            <input type="date" id="date" />
+            <input type="time" id="time" />
+          </div>
+          <div class="box">
+            <button onclick="taskHandler()">Create Task</button>
+          </div>
+        </div>
+      </div>
+      <div class="right">
+        <div class="data-container">
+          <div class="data-top">
+            <div class="upcoming-btn" onclick="showCards('upcoming')">
+              upcoming
+            </div>
+            <div class="all-btn" onclick="showCards('all')">all</div>
+          </div>
+
+          <div class="data-bottom">
+            <div id="render-data"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

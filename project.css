@@ -1,0 +1,88 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  border: 1px solid black;
+  width: 90vw;
+  height: 90vh;
+  display: flex;
+}
+.left {
+  width: 60vw;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-right: 2px solid black;
+}
+.top {
+  font-size: 32px;
+  font-weight: bold;
+  padding-bottom: 24px;
+}
+.bottom {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 8px;
+}
+.right {
+  width: 40vw;
+  height: 90vh;
+  overflow: scroll;
+  display: flex;
+}
+span {
+  background-color: green;
+  width: 2000px;
+}
+.upcoming-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  width: 128px;
+  height: 24px;
+  background-color: gray;
+  cursor: pointer;
+}
+.all-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  width: 128px;
+  height: 24px;
+  background-color: gray;
+  cursor: pointer;
+}
+.data-container {
+  width: 100%;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.data-top {
+  display: flex;
+}
+.cards-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+.card {
+  border: 1px dotted green;
+}
